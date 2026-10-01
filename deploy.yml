@@ -1,0 +1,8 @@
+---
+- name: Deploy Application
+  hosts: kubernetes
+
+  tasks:
+    - name: Display Message
+      debug:
+        msg: "Deployment Started"
